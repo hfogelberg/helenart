@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  color: $main-font-color;
+  font-size: 16px;
+  line-height: 1.7;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 10;
+}
+
+.content {
+  flex: 90;
+  width: 100vw;
+  height: 90vh;
+  justify-content: flex-start;
+}
+
+article {
+  flex: auto;
+}
+
+p {
+  font-size: $s-size;
+  font-weight: 400;
+  margin-bottom: $s-size;
+}
+
+a {
+  font-size: 1.2em;
+  color: rgba(236, 240, 241, 1);
+  font-weight: 300;
+}
+
+a.admin {
+  opacity: 0;
+  margin-right: 3em;
+}
+
+a.admin:hover {
+  opacity: 1;
+}
+
+a:hover {
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
